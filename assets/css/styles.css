@@ -66,6 +66,9 @@ body {
 h1,h2,h3,p{
   margin: 0;
 }
+h2 {
+  text-align: center;
+}
 
 h3{
   font-weight: var(--font-semi-bold);
@@ -166,6 +169,14 @@ img{
   font-weight: var(--font-bold);
   transition: .3s;
   cursor: pointer;
+}
+
+.nav__link{
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--first-color-lighten);
+  font-weight: var(--font-bold);
+  transition: .3s;
 }
 
 .nav__item:hover{
@@ -520,7 +531,6 @@ img{
   justify-items: center;
   row-gap: 2rem;
 }
-
 .works__img{
   position: relative;
   overflow: hidden;
@@ -542,6 +552,7 @@ img{
 }
 
 .works__link{
+  
   display: inline-flex;
   font-size: 1.5rem;
   background-color: var(--first-color-lighten);
@@ -551,7 +562,9 @@ img{
   margin-bottom: var(--mb-2);
 }
 
+
 .works__tilte{
+  
   font-size:var(--h2-font-size);
   color: var(--first-color--lighten);
 }
